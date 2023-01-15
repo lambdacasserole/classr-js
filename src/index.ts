@@ -180,7 +180,7 @@ export async function getInfo(classifierUuid: string, document: string, baseUrl:
 /**
  * Represents a cloud-based classifier on the Classr platform.
  */
-export class Classr {
+export default class Classr {
 
     /**
      * The UUID of the classifier.
