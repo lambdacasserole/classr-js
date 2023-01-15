@@ -13,7 +13,7 @@ Use microclassifiers in the cloud for spam detection, sentiment analysis and mor
 The Classr SDK for Node.js can be installed using `npm`:
 
 ```sh
-pip install classr
+npm install classr --save
 ```
 
 ## Usage
