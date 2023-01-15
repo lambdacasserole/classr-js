@@ -1,0 +1,45 @@
+{
+  "name": "classr",
+  "version": "1.0.0",
+  "description": "Use microclassifiers in the cloud for spam detection, sentiment analysis and more.",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "scripts": {
+    "build": "tsc --build",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "bundle": "webpack",
+    "docs": "typedoc src/index.ts --out docs/api"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lammbdacasserole/classr-js.git"
+  },
+  "keywords": [
+    "javascript",
+    "typescript",
+    "machine-learning",
+    "classification",
+    "mlaas"
+  ],
+  "author": "Saul Johnson <saul.a.johnson@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/lambdacasserole/classr-js/issues"
+  },
+  "homepage": "https://github.com/lambdacasserole/classr-js#readme",
+  "devDependencies": {
+    "@types/chai": "^4.2.21",
+    "@types/mocha": "^9.0.0",
+    "@types/node": "^16.4.9",
+    "chai": "^4.3.4",
+    "mocha": "^9.0.3",
+    "ts-node": "^10.1.0",
+    "typedoc": "^0.21.5",
+    "typescript": "^4.3.5",
+    "webpack": "^5.47.1",
+    "webpack-cli": "^4.7.2"
+  },
+  "dependencies": {
+    "axios": "^1.2.2"
+  }
+}
